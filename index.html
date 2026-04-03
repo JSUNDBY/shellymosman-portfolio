@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelly Mosman — Portrait Photographer</title>
+  <meta name="description" content="Shelly Mosman is a Minneapolis-based portrait photographer known for expressive, narrative-driven imagery. Her work lives in the permanent collections of the Plains Art Museum, Eiteljorg Museum, and Rockford Art Museum.">
+  <meta property="og:title" content="Shelly Mosman — Portrait Photographer">
+  <meta property="og:description" content="Expressive portraiture from Minneapolis. Commissions available.">
+  <meta property="og:image" content="images/hero/hero.jpg">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#" class="nav__logo">Shelly Mosman</a>
+    <ul class="nav__links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#press">Press</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav__hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg" style="background-image: url('images/hero/hero.jpg')"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">Shelly<br>Mosman</h1>
+      <p class="hero__subtitle">Portrait photographer — Minneapolis</p>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED WORK -->
+  <section class="section--full" id="work">
+    <div class="section__header">
+      <div>
+        <h2 class="section__title reveal">Selected Work</h2>
+        <p class="section__subtitle reveal">Portraits, families, and the creatures between</p>
+      </div>
+    </div>
+
+    <div class="series-nav reveal">
+      <button class="series-nav__btn active" data-filter="all">All</button>
+      <button class="series-nav__btn" data-filter="animal-child">Animal Child</button>
+      <button class="series-nav__btn" data-filter="mother-child">Mother Child</button>
+      <button class="series-nav__btn" data-filter="bnw">Black & White</button>
+      <button class="series-nav__btn" data-filter="color">Color Portraits</button>
+      <button class="series-nav__btn" data-filter="fashion">Fashion</button>
+      <button class="series-nav__btn" data-filter="family">Family</button>
+      <button class="series-nav__btn" data-filter="headshots">Headshots</button>
+      <button class="series-nav__btn" data-filter="animals">Animals</button>
+    </div>
+
+    <div class="gallery gallery--masonry gallery--filtered">
+
+      <!-- 1. HOOK — dark, rich, arresting -->
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/yk_saras_theswan.jpg" data-full="images/animal-child/yk_saras_theswan.jpg" alt="Sara with black swan on dark palm wallpaper" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/2016_johnkramer_2r2a6222.jpg" data-full="images/bnw/2016_johnkramer_2r2a6222.jpg" alt="John Kramer — peeling portrait" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/2019_abby_cranes_2r2a0398.jpg" data-full="images/animal-child/2019_abby_cranes_2r2a0398.jpg" alt="Abby adorned with cranes on ornate floral backdrop" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+
+      <!-- 2. COLOR EXPLOSION — lizards, Victorian, fire -->
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/color/2016_kevin_lizard_2r2a8581.jpg" data-full="images/color/2016_kevin_lizard_2r2a8581.jpg" alt="Kevin draped in lizards on tropical wallpaper" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/prof/prof_police_fire.jpg" data-full="images/prof/prof_police_fire.jpg" alt="Prof — car on fire, balloons, police stop" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/yk_nataliebirds.jpg" data-full="images/animal-child/yk_nataliebirds.jpg" alt="Girl with parrots on tropical wallpaper" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+
+      <!-- 3. B&W GRAPHIC — silhouette, puffer, leather -->
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/yk_sarabnw.jpg" data-full="images/bnw/yk_sarabnw.jpg" alt="Sara — dramatic silhouette profile" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/2019_milesfitterman_puffer_2r2a5112.jpg" data-full="images/bnw/2019_milesfitterman_puffer_2r2a5112.jpg" alt="Girl in oversized puffer coat emerging from darkness" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/2021_scott_2r2a4814.jpg" data-full="images/bnw/2021_scott_2r2a4814.jpg" alt="Scott in leather jacket on black" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+
+      <!-- 4. LUSH — Victorian, botanical, theatrical -->
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/color/yk_delicatebird.jpg" data-full="images/color/yk_delicatebird.jpg" alt="Victorian woman with parasol on painted landscape" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/2021_julie_owl_2r2a6937.2.jpg" data-full="images/animal-child/2021_julie_owl_2r2a6937.2.jpg" alt="Boy with goat and wolf in dark botanical setting" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+      <div class="gallery__item reveal" data-series="headshots"><img data-src="images/headshots/2021_tina_carter_2r2a5553.jpg" data-full="images/headshots/2021_tina_carter_2r2a5553.jpg" alt="Tina with her dogs in ornate chair" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Headshots</span></div></div>
+
+      <!-- 5. BRIGHT POP — yellow, pink, irreverent -->
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/yk_natily_lola.jpg" data-full="images/animal-child/yk_natily_lola.jpg" alt="Girl in yellow dress with parrot on floral wallpaper" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/color/yk_2r2a2169.jpg" data-full="images/color/yk_2r2a2169.jpg" alt="Bubblegum bride in vintage pink dress" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/prof/prof_hose_fire.jpg" data-full="images/prof/prof_hose_fire.jpg" alt="Prof laughing — tree on fire, garden hose" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+
+      <!-- 6. TENDER — mother child, family -->
+      <div class="gallery__item reveal" data-series="mother-child"><img data-src="images/mother-child/2026_anna_williams_l1200144_copy.jpg" data-full="images/mother-child/2026_anna_williams_l1200144_copy.jpg" alt="Mother and child portrait" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Mother Child</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/2016_zio_ferret.jpg" data-full="images/animal-child/2016_zio_ferret.jpg" alt="Zio holding ferret — dark Renaissance mood" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+      <div class="gallery__item reveal" data-series="family"><img data-src="images/family/2020_katherone_lamb_2r2a5608.3.jpg" data-full="images/family/2020_katherone_lamb_2r2a5608.3.jpg" alt="Couple in theatrical vintage costume with cat" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Family</span></div></div>
+
+      <!-- 7. B&W DEPTH — woods, lace, movement -->
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/2021_viviam_domino_woods_l1000850.jpg" data-full="images/bnw/2021_viviam_domino_woods_l1000850.jpg" alt="Two girls in enchanted woods with ghostly blur" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/yk_mona.jpg" data-full="images/bnw/yk_mona.jpg" alt="Mona in black lace — dramatic movement" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/yk_ursellainhelmut.jpg" data-full="images/bnw/yk_ursellainhelmut.jpg" alt="Woman in helmet with braid — painterly portrait" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+
+      <!-- 8. CREATURES — owl, parrot, swan -->
+      <div class="gallery__item reveal" data-series="animals"><img data-src="images/animals/2019_crowned_owl_2r2a5047.2.jpg" data-full="images/animals/2019_crowned_owl_2r2a5047.2.jpg" alt="Owl wearing golden crown on painted forest backdrop" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animals</span></div></div>
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/color/yk_ursula.jpg" data-full="images/color/yk_ursula.jpg" alt="Ursula upside-down with parrot in theatrical setting" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/2020_sara_swan_2r2a9639.jpg" data-full="images/animal-child/2020_sara_swan_2r2a9639.jpg" alt="Sara with white swan" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+
+      <!-- 9. MUSIC — Atmosphere, Charlie Parr, Bob Mould, Band -->
+      <div class="gallery__item reveal" data-series="headshots"><img data-src="images/headshots/2020_atmosphere_cinematic_2r2a7691.jpg" data-full="images/headshots/2020_atmosphere_cinematic_2r2a7691.jpg" alt="Atmosphere — cinematic duo" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Headshots</span></div></div>
+      <div class="gallery__item reveal" data-series="headshots"><img data-src="images/headshots/2020_charlieparr_2r2a0961.jpg" data-full="images/headshots/2020_charlieparr_2r2a0961.jpg" alt="Charlie Parr portrait" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Headshots</span></div></div>
+      <div class="gallery__item reveal" data-series="headshots"><img data-src="images/headshots/2016_tina_bsides_band_2r2a5685.jpg" data-full="images/headshots/2016_tina_bsides_band_2r2a5685.jpg" alt="Band portrait on red velvet stage" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Headshots</span></div></div>
+
+      <!-- 10. FIRE + FASHION — chaos, beauty -->
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/prof/prof_police_frisk_fire.jpg" data-full="images/prof/prof_police_frisk_fire.jpg" alt="Prof frisked — car ablaze, balloons flying" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="fashion"><img data-src="images/fashion/2018_lulu_2r2a8641.2.crop.jpg" data-full="images/fashion/2018_lulu_2r2a8641.2.crop.jpg" alt="Lulu — fashion editorial" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Fashion</span></div></div>
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/prof/prof_kitchen_fire.jpg" data-full="images/prof/prof_kitchen_fire.jpg" alt="Prof in kitchen — oven on fire, balloons, apron" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+
+      <!-- 11. B&W CLOSEOUT — street, horse, boys -->
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/2016_sofia_luna_2r2a9620.jpg" data-full="images/bnw/2016_sofia_luna_2r2a9620.jpg" alt="Girl with dog and skateboard — Open 7 Days" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/2017_frances_2r2a8941.jpg" data-full="images/bnw/2017_frances_2r2a8941.jpg" alt="Frances — three kids by train tracks" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+      <div class="gallery__item reveal" data-series="bnw"><img data-src="images/bnw/2017_henery_andy_2r2a5894.jpg" data-full="images/bnw/2017_henery_andy_2r2a5894.jpg" alt="Henry and Andy" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Black & White</span></div></div>
+
+      <!-- 12. COLOR WARMTH — horse, water, seascape -->
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/color/2016_horse_in_livingroom_2r2a9280_print.jpg" data-full="images/color/2016_horse_in_livingroom_2r2a9280_print.jpg" alt="Horse standing in a living room" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/color/2021_viviam_domino_water.jpg" data-full="images/color/2021_viviam_domino_water.jpg" alt="Two girls submerged in dark reflective water" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/2020_brutus_thebird.jpg" data-full="images/animal-child/2020_brutus_thebird.jpg" alt="Girl with bearded dragon on tropical wallpaper" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+
+      <!-- 13. CLOSE — tenderness, portraiture, magic -->
+      <div class="gallery__item reveal" data-series="mother-child"><img data-src="images/mother-child/2021_saberina_2r2a3908.2.jpg" data-full="images/mother-child/2021_saberina_2r2a3908.2.jpg" alt="Saberina — mother and child" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Mother Child</span></div></div>
+      <div class="gallery__item reveal" data-series="headshots"><img data-src="images/headshots/2020_bob_mould_-_send_2014__20r9068.jpg" data-full="images/headshots/2020_bob_mould_-_send_2014__20r9068.jpg" alt="Bob Mould portrait" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Headshots</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/yk_rubyanddafidills.jpg" data-full="images/animal-child/yk_rubyanddafidills.jpg" alt="Ruby surrounded by daffodils" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+      <div class="gallery__item reveal" data-series="fashion"><img data-src="images/fashion/2018_violet_2r2a9826.jpg" data-full="images/fashion/2018_violet_2r2a9826.jpg" alt="Violet — ethereal white" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Fashion</span></div></div>
+      <div class="gallery__item reveal" data-series="headshots"><img data-src="images/headshots/2016_tina_solo_2r2a5832.jpg" data-full="images/headshots/2016_tina_solo_2r2a5832.jpg" alt="Tina — poncho on red velvet curtain" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Headshots</span></div></div>
+      <div class="gallery__item reveal" data-series="animal-child"><img data-src="images/animal-child/2020_natily_birds_t8896x5920-00466.3.jpg" data-full="images/animal-child/2020_natily_birds_t8896x5920-00466.3.jpg" alt="Natily surrounded by birds" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Animal Child</span></div></div>
+      <div class="gallery__item reveal" data-series="fashion"><img data-src="images/fashion/2018_mona_img_4197.3.jpg" data-full="images/fashion/2018_mona_img_4197.3.jpg" alt="Mona — mirrored kaleidoscope" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Fashion</span></div></div>
+      <div class="gallery__item reveal" data-series="mother-child"><img data-src="images/mother-child/2019_iliana_2r2a9322.jpg" data-full="images/mother-child/2019_iliana_2r2a9322.jpg" alt="Iliana — mother and child" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Mother Child</span></div></div>
+      <div class="gallery__item reveal" data-series="color"><img data-src="images/color/2018_sarahseascape_2r2a7273.crop.2.jpg" data-full="images/color/2018_sarahseascape_2r2a7273.crop.2.jpg" alt="Sarah seascape portrait" loading="lazy"><div class="gallery__overlay"><span class="gallery__caption">Color Portraits</span></div></div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="about">
+      <div class="about__image reveal">
+        <img src="images/about/shelly-mosman.jpg" alt="Shelly Mosman in her studio">
+      </div>
+      <div class="about__content">
+        <h2 class="reveal">The portrait is never just a picture. It's a world.</h2>
+        <p class="reveal">
+          Shelly Mosman is a Minneapolis-based portrait photographer whose work sits at the intersection of fine art and narrative storytelling. Working from her <strong>1,500-square-foot studio inside the Casket Arts Building</strong> in Northeast Minneapolis, she creates images that blur the line between reality and something stranger, more tender, more alive.
+        </p>
+        <p class="reveal">
+          A graduate of the <strong>Minneapolis College of Art and Design</strong> with a background in drawing and painting, Shelly brings a painter's eye to every frame. Her studio — seven shooting bays, wet and dry darkrooms, and a menagerie of props including taxidermy, vintage costumes, and live animals — is a stage where the ordinary becomes extraordinary.
+        </p>
+        <p class="reveal">
+          Over two decades, her work has evolved from commercial and wedding photography into a deeply personal practice of <strong>expressive, imaginative portraiture</strong>. Her signature series — <em>Animal Child</em>, <em>Mother Child</em>, and her black-and-white portraits — weave together influences from European art history and modern pop culture, capturing subjects in moments that feel both timeless and utterly present.
+        </p>
+        <p class="reveal">
+          Her photographs have been <strong>published internationally</strong> in Germany, France, Australia, Brazil, and the United States. She was awarded <strong>1st Prize in the LensCulture Exposure Awards</strong> portfolio category, exhibited at <strong>Art Basel Miami / Aqua</strong>, and shown at the <strong>Minnesota Marine Art Museum</strong>, <strong>Rockford Art Museum</strong>, and <strong>Circa Gallery</strong>. Her work lives in the permanent collections of the <strong>Plains Art Museum</strong>, <strong>Eiteljorg Museum</strong>, and <strong>Rockford Art Museum</strong>.
+        </p>
+        <p class="reveal">
+          She also co-created <em>The Conscious Kingdom</em>, a fine art book with Tina Wilcox, who curated and styled a collection of humanely procured taxidermy in Victorian costuming — with Shelly bringing the vision to life through photography. A portion of proceeds benefits the Animal Humane Society.
+        </p>
+
+        <div class="about__stats reveal">
+          <div>
+            <div class="stat__number">20+</div>
+            <div class="stat__label">Years</div>
+          </div>
+          <div>
+            <div class="stat__number">3</div>
+            <div class="stat__label">Museum Collections</div>
+          </div>
+          <div>
+            <div class="stat__number">5</div>
+            <div class="stat__label">Countries Published</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESS -->
+  <section class="section" id="press">
+    <div class="section__header" style="padding:0">
+      <h2 class="section__title reveal">Press & Exhibitions</h2>
+    </div>
+    <div class="press reveal">
+      <span class="press__item">LensCulture Exposure Awards — 1st Prize</span>
+      <span class="press__item">Art Basel Miami / Aqua</span>
+      <span class="press__item">Minnesota Marine Art Museum</span>
+      <span class="press__item">Rockford Art Museum</span>
+      <span class="press__item">Mpls.St.Paul Magazine</span>
+      <span class="press__item">Artful Living Magazine</span>
+      <span class="press__item">Fubiz Media</span>
+      <span class="press__item">Rangefinder / PDN</span>
+      <span class="press__item">Lake Society Magazine</span>
+      <span class="press__item">ShoutOut LA</span>
+      <span class="press__item">Saatchi Art</span>
+      <span class="press__item">The Independent Photographer</span>
+      <span class="press__item">City Pages</span>
+      <span class="press__item">Artsy</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="contact">
+      <div class="contact__info">
+        <h2 class="reveal">Let's make<br>something</h2>
+        <p class="reveal">Commissions, portrait sessions, and creative collaborations. Whether you want a family portrait with your dog on a floral backdrop or a headshot that actually looks like you — reach out.</p>
+
+        <div class="contact__detail reveal">
+          <div class="contact__label">Email</div>
+          <div class="contact__value"><a href="mailto:shelly@shellymosman.com">shelly@shellymosman.com</a></div>
+        </div>
+
+        <div class="contact__detail reveal">
+          <div class="contact__label">Studio</div>
+          <div class="contact__value">Casket Arts Building<br>681 17th Ave NE, Studio #123<br>Minneapolis, MN 55413</div>
+        </div>
+
+        <div class="contact__social reveal">
+          <a href="https://www.instagram.com/shellymosman/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.saatchiart.com/shellymosman" target="_blank" rel="noopener">Saatchi Art</a>
+          <a href="https://www.artsy.net/artist/shelly-mosman" target="_blank" rel="noopener">Artsy</a>
+        </div>
+      </div>
+
+      <form class="form reveal" id="contact-form">
+        <div class="form__row">
+          <div class="form__group">
+            <label class="form__label" for="name">Name</label>
+            <input class="form__input" type="text" id="name" name="name" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="type">I'm interested in</label>
+          <select class="form__select" id="type" name="type">
+            <option value="Commission Portrait">Commission Portrait</option>
+            <option value="Family Session">Family Session</option>
+            <option value="Headshots">Headshots</option>
+            <option value="Animal Child Session">Animal Child Session</option>
+            <option value="Fashion/Editorial">Fashion / Editorial</option>
+            <option value="Print Purchase">Print Purchase</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="message">Tell me about your vision</label>
+          <textarea class="form__textarea" id="message" name="message" rows="5"></textarea>
+        </div>
+        <button class="form__submit" type="submit">Send Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 Shelly Mosman. All rights reserved.</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox">
+    <img class="lightbox__img" src="" alt="Full size image">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous">&#8249;</button>
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Next">&#8250;</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

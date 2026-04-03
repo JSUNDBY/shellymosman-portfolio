@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: shellymosman/shellymosman.github.io
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "markdown" }
+          - { label: "Headshot", name: "headshot", widget: "image" }
+
+  - name: "gallery"
+    label: "Gallery Images"
+    folder: "content/gallery"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Series", name: "series", widget: "select", options: ["animal-child", "mother-child", "bnw", "color", "fashion", "family", "headshots", "animals"] }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Alt Text", name: "alt", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
